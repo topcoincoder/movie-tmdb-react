@@ -11,7 +11,6 @@ import Completed from './Components/Completed';
 import SideBar from "./Components/SideBar";
 import { nanoid } from 'nanoid';
 
-
 function App() {
   const [movies, setMovies] = useState([]);
   const [favourites, setFavourites] = useState([]);
