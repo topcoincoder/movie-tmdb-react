@@ -13,8 +13,6 @@ import { nanoid } from 'nanoid';
 
 
 function App() {
-
-
   const [movies, setMovies] = useState([]);
   const [favourites, setFavourites] = useState([]);
   const [watchlist, setWatchlist] = useState([]);
